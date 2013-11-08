@@ -1,0 +1,6 @@
+Python script to notify on UCAS Track updates.
+
+Modify settings in config.py and run ucas.py.
+For continuous updates, use a scheduler such as cron.
+
+Currently supports: SMS
