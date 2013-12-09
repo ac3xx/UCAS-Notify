@@ -18,7 +18,7 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 # User-Agent
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
-# The site we will navigate into, handling it's session
+# The site we will navigate into, handling its session
 br.open('http://track.ucas.com/')
 
 # Select Form
